@@ -1,13 +1,14 @@
 require 'sinatra'
 require 'active_record'
 require 'digest/sha1'
+require 'sinatra/flash'
 require 'logger'
 
 ActiveRecord::Base.establish_connection(
 	:adapter  => "mysql2",
 	:host     => "localhost",
 	:username => "minix",
-	:password 	=> "XXXXXXX",
+	:password 	=> "XXXXX",
 	:database => "site"
 )
 
@@ -29,7 +30,7 @@ class Users < ActiveRecord::Base
 		@passwd
 	end
 
-	def passwd=(passwd)
+	def passwd=(passwd) 
 		@passwd = passwd
 		self.salt = Users.random_string(10) if !self.salt?
 		self.hash_passwd = Users.encrypt(@passwd, self.salt)
@@ -78,14 +79,6 @@ logger = ::Logger.new("log/development.log")
 logger.level = ::Logger::DEBUG
 
 
-def require_logged_in
-	redirect('/login') unless is _authenticated?
-end
-
-def is_authenticated?
-	return !!session[:user]
-end
-
 get "/" do
 	erb :index
 end
@@ -106,7 +99,8 @@ post "/signup" do
 		session[:user] = params[:user][:name]
 		redirect "/"
 	else
-		'Signup Unsuccessful'
+		flash[:error] = "Format of form was wrong!"
+		redirect "/signup"
 	end
 end
 
@@ -115,7 +109,8 @@ post "/login" do
 		session[:user] = params[:user][:name]
 		redirect "/"
 	else 
-		erb :error
+		flash[:error] = "User or Password was wrong!"
+		redirect "/login"
 	end
 end
 

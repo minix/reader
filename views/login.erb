@@ -1,3 +1,6 @@
+<% if flash[:error] %>
+	<p><%= flash[:error] %>
+<% end %>
 <% if session[:user] == nil %>
 <h1>Welcome</h1>
 <a href="/logout">Logout</a>

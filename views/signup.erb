@@ -1,3 +1,6 @@
+<% if flash[:error] %>
+	<p><%= flash[:error] %>
+<% end %>
 <p>Enter the username and password!</p>
 <form action="/signup" method="post">
 	<label>Username</label>
@@ -6,5 +9,5 @@
 	<input type="password" name="user[passwd]" value="<%= @user.passwd %>" /><br />
 	<label>Password:</label>
 	<input type="password" name="user[passwd_confirmation]" value="<%= @user.passwd_confirmation %>" /><br />
-<input type="submit" value="Sign Up">
-<input type="reset" value="Clear">
+<input type="submit" value="Submit">
+</form>
