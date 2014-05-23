@@ -1,13 +1,13 @@
 require 'sinatra'
 require 'active_record'
-require 'bcrypt'
 require 'digest/sha1'
+require 'logger'
 
 ActiveRecord::Base.establish_connection(
 	:adapter  => "mysql2",
 	:host     => "localhost",
-	:username => "shanlink",
-	:password 	=> "XXXXXXXXXXXXXX",
+	:username => "minix",
+	:password 	=> "M-gtuiw",
 	:database => "site"
 )
 
@@ -36,9 +36,8 @@ class Users < ActiveRecord::Base
 	end
 
 	def self.authenticate(name, passwd)
-		u = Users.find_by name: 'name'
-		#u = Users.find_by_name(name)
-		return nil if u == name
+		#u = Users.find_by name: 'name'
+		u = Users.find_by_name(name)
 		return nil if u.nil?
 		return u if Users.encrypt(passwd, u.salt) == u.hash_passwd
 		nil
@@ -66,16 +65,26 @@ class Users < ActiveRecord::Base
 end
 
 enable :sessions
+set :session_secret, '3229450eae59f7eb02a3d60e995e19453d4bb5a3'
 set :environment, :development
 set :root, File.dirname(__FILE__)
 set :server, %w[thin]
-set :bind, '58.67.159.94'
+set :bind, '127.0.0.1'
 set :port, '4567'
 set :app_file, __FILE__
 set :public_folder, Proc.new { File.join(root, "static") }
 set :views, Proc.new { File.join(root, "views") }
+logger = ::Logger.new("log/development.log")
+logger.level = ::Logger::DEBUG
 
-userTable = {}
+
+def require_logged_in
+	redirect('/login') unless is _authenticated?
+end
+
+def is_authenticated?
+	return !!session[:user]
+end
 
 get "/" do
 	erb :index
@@ -93,7 +102,8 @@ end
 post "/signup" do
 	@user = Users.new(params[:user])
 	if @user.save
-		session[:user] = Users.authenticate(@user.name, @user.passwd)
+	#	session[:user] = Users.authenticate(@user.name, @user.passwd)
+		session[:user] = params[:user][:name]
 		redirect "/"
 	else
 		'Signup Unsuccessful'
@@ -101,12 +111,16 @@ post "/signup" do
 end
 
 post "/login" do
-			redirect "/"
-	erb :error
+	if session[:user] = Users.authenticate(params[:user][:name], params[:user][:passwd])
+		session[:user] = params[:user][:name]
+		redirect "/"
+	else 
+		erb :error
+	end
 end
 
 get "/logout" do
-	session[:name] = nil
+	session[:user] = nil
 	redirect "/"
 end
 

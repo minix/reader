@@ -1,17 +1,19 @@
-<h1>Welcome #{username}"</h1>
+<% if session[:user] == nil %>
+<h1>Welcome</h1>
 <a href="/logout">Logout</a>
 <form action="/login" method="post">
-<div>
 <label>Username</label>
-<input type="text" name="username" />
-</div>
-<div>
+<input type="text" name="user[name]" /><br />
 <label> Password</label>
-<input type="password" name="username" />
-</div>
+<input type="password" name="user[passwd]" /><br />
 <input type="submit" value="Login" />
 <input type="reset" value="clear" />
 </form>
 <p>
 	<a href="/signup">Signup </a>
 </p>
+<% else %>
+	<p><%= session[:user] %>, You logged in, now come in home page</p>
+	<p>or</p>
+	<p><a href="/logout">Logout</p>
+<% end %>

@@ -1,3 +1,8 @@
+<% if session[:user] == nil %>
+	<a href="/login">Login</a>
+<% else %>
+	<h4>Welcome, <%= session[:user] %> | <a href="/logout">Logout</a></h4>
+<% end %>
 <h1>Hello World!</h1>
 <h2>haha</h2>
 <h3>hoho</h3>
