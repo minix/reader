@@ -7,7 +7,7 @@ ActiveRecord::Base.establish_connection(
 	:adapter  => "mysql2",
 	:host     => "localhost",
 	:username => "minix",
-	:password 	=> "M-gtuiw",
+	:password 	=> "XXXXXXX",
 	:database => "site"
 )
 
