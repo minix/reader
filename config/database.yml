@@ -1,0 +1,8 @@
+adapter: mysql2
+encoding: utf8
+reconnect: true
+database: site
+username: minix
+password: XXXXXX
+host: localhost
+port: 3306

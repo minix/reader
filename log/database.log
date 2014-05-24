@@ -1,0 +1,11 @@
+D, [2014-05-24T12:30:52.321325 #1238] DEBUG -- :   [1m[36m (1.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T12:30:52.321451 #1238]  INFO -- : Migrating to CreateUsers (1)
+D, [2014-05-24T12:30:52.338579 #1238] DEBUG -- :   [1m[35m (11.7ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T12:30:52.339664 #1238] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m
+D, [2014-05-24T12:32:19.789193 #1248] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `haha` DEFAULT CHARACTER SET `utf8`[0m
+D, [2014-05-24T12:32:26.013437 #1249] DEBUG -- :   [1m[36m (24.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+D, [2014-05-24T12:32:26.038414 #1249] DEBUG -- :   [1m[35m (23.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+D, [2014-05-24T12:32:26.043638 #1249] DEBUG -- :   [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T12:32:26.043715 #1249]  INFO -- : Migrating to CreateUsers (1)
+D, [2014-05-24T12:32:26.069994 #1249] DEBUG -- :   [1m[35m (24.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T12:32:26.071279 #1249] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m

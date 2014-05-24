@@ -3,7 +3,6 @@
 <% end %>
 <% if session[:user] == nil %>
 <h1>Welcome</h1>
-<a href="/logout">Logout</a>
 <form action="/login" method="post">
 <label>Username</label>
 <input type="text" name="user[name]" /><br />
