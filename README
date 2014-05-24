@@ -1,0 +1,12 @@
+文件说明
+
+Rakefile:    用于创建数据库和表。可使用rake db:create 和 rake db:migrate来使用创建数据库和表。更高级的命令可参考activerecord的migration
+config/database.yml:  数据库的连接信息。这个文件会被Rakefile和main.rb文件调用
+db/migrate/001_create_users.rb: 这个是用于rake db:migrate时的表创建。在001_create_users.rb必须是特定的文件名。如果单纯是user.rb是无法通过rake db:migrate来运行的
+log: 这个目录主要记录了一些日志
+main.rb: 这个文件是整个项目的骨架，它里面的内容很多，很想像rails一样分为view, models, controler，不过目前还没这个能力，迟点吧！
+model: 从main.rb文件里面分出来的models，里面只有user.rb文件，这文件用了一些函数来使整个项目可登录和注册
+pull_to_github.sh: 因为人老了，记忆力差了。只能通过脚本来上传更改后的东西到github.com上。里面内容很简单的
+setup.sh: 就是运行main.rb的一个简单脚本。它将运行ruby main.rb所输出的信息重定向到/dev/null里，如果想查日志就到lol/deveopment.log里面查即可
+static: 存放静态文件的地方。如js, css, png, jpeg等等
+views: 存放页面的地方。因为我使用的是erb来解析成html,所以里面的文件都是erb结尾的
