@@ -1,132 +1,169 @@
-# Logfile created on 2014-05-23 23:15:15 +0800 by logger.rb/31641
-127.0.0.1 - - [24/May/2014 11:08:07] "GET / HTTP/1.1" 200 161 0.0056
-127.0.0.1 - - [24/May/2014 11:08:36] "GET / HTTP/1.1" 200 161 0.0047
-127.0.0.1 - - [24/May/2014 11:08:38] "GET /login HTTP/1.1" 200 436 0.0029
-127.0.0.1 - - [24/May/2014 11:08:40] "POST /login HTTP/1.1" 303 - 0.0512
-127.0.0.1 - - [24/May/2014 11:08:40] "GET / HTTP/1.1" 200 189 0.0015
-127.0.0.1 - - [24/May/2014 11:08:41] "GET /logout HTTP/1.1" 302 - 0.0017
-127.0.0.1 - - [24/May/2014 11:08:41] "GET / HTTP/1.1" 200 161 0.0020
-127.0.0.1 - - [24/May/2014 11:10:25] "GET / HTTP/1.1" 200 201 0.0049
-127.0.0.1 - - [24/May/2014 11:10:27] "GET /signup HTTP/1.1" 200 476 0.0472
-127.0.0.1 - - [24/May/2014 11:10:29] "POST /signup HTTP/1.1" 303 - 0.0322
-127.0.0.1 - - [24/May/2014 11:10:29] "GET /signup HTTP/1.1" 200 506 0.0020
-127.0.0.1 - - [24/May/2014 11:10:38] "GET /login HTTP/1.1" 200 436 0.0029
-127.0.0.1 - - [24/May/2014 11:10:40] "POST /login HTTP/1.1" 303 - 0.0152
-127.0.0.1 - - [24/May/2014 11:10:40] "GET / HTTP/1.1" 200 189 0.0023
-127.0.0.1 - - [24/May/2014 11:10:41] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:10:41] "GET / HTTP/1.1" 200 201 0.0023
-127.0.0.1 - - [24/May/2014 11:10:43] "GET /login HTTP/1.1" 200 436 0.0030
-127.0.0.1 - - [24/May/2014 11:10:44] "POST /login HTTP/1.1" 303 - 0.0060
-127.0.0.1 - - [24/May/2014 11:10:44] "GET / HTTP/1.1" 200 189 0.0017
-127.0.0.1 - - [24/May/2014 11:10:46] "GET /logout HTTP/1.1" 302 - 0.0016
-127.0.0.1 - - [24/May/2014 11:10:46] "GET / HTTP/1.1" 200 201 0.0017
-127.0.0.1 - - [24/May/2014 11:10:47] "GET /login HTTP/1.1" 200 436 0.0033
-127.0.0.1 - - [24/May/2014 11:10:49] "POST /login HTTP/1.1" 303 - 0.0081
-127.0.0.1 - - [24/May/2014 11:10:49] "GET / HTTP/1.1" 200 189 0.0020
-127.0.0.1 - - [24/May/2014 11:10:50] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:10:50] "GET / HTTP/1.1" 200 201 0.0022
-127.0.0.1 - - [24/May/2014 11:12:19] "GET / HTTP/1.1" 200 201 0.0047
-127.0.0.1 - - [24/May/2014 11:12:20] "GET /login HTTP/1.1" 200 436 0.0032
-127.0.0.1 - - [24/May/2014 11:12:23] "POST /login HTTP/1.1" 303 - 0.0556
-127.0.0.1 - - [24/May/2014 11:12:23] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:12:24] "GET /logout HTTP/1.1" 302 - 0.0011
-127.0.0.1 - - [24/May/2014 11:12:24] "GET / HTTP/1.1" 200 201 0.0020
-127.0.0.1 - - [24/May/2014 11:12:25] "GET /login HTTP/1.1" 200 436 0.0039
-127.0.0.1 - - [24/May/2014 11:12:26] "POST /login HTTP/1.1" 303 - 0.0073
-127.0.0.1 - - [24/May/2014 11:12:26] "GET / HTTP/1.1" 200 189 0.0017
-127.0.0.1 - - [24/May/2014 11:12:28] "GET /logout HTTP/1.1" 302 - 0.0011
-127.0.0.1 - - [24/May/2014 11:12:28] "GET / HTTP/1.1" 200 201 0.0020
-127.0.0.1 - - [24/May/2014 11:12:29] "GET /login HTTP/1.1" 200 436 0.0037
-127.0.0.1 - - [24/May/2014 11:12:30] "POST /login HTTP/1.1" 303 - 0.0057
-127.0.0.1 - - [24/May/2014 11:12:30] "GET / HTTP/1.1" 200 189 0.0017
-127.0.0.1 - - [24/May/2014 11:12:32] "GET /logout HTTP/1.1" 302 - 0.0013
-127.0.0.1 - - [24/May/2014 11:12:33] "GET / HTTP/1.1" 200 201 0.0092
-127.0.0.1 - - [24/May/2014 11:12:34] "GET /login HTTP/1.1" 200 436 0.0032
-127.0.0.1 - - [24/May/2014 11:12:45] "POST /login HTTP/1.1" 303 - 0.0057
-127.0.0.1 - - [24/May/2014 11:12:45] "GET / HTTP/1.1" 200 188 0.0019
-127.0.0.1 - - [24/May/2014 11:12:48] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:12:48] "GET / HTTP/1.1" 200 201 0.0018
-127.0.0.1 - - [24/May/2014 11:12:50] "GET /login HTTP/1.1" 200 436 0.0051
-127.0.0.1 - - [24/May/2014 11:12:52] "POST /login HTTP/1.1" 303 - 0.0023
-127.0.0.1 - - [24/May/2014 11:12:52] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:12:53] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:12:53] "GET / HTTP/1.1" 200 201 0.0024
-127.0.0.1 - - [24/May/2014 11:12:55] "GET /login HTTP/1.1" 200 436 0.0032
-127.0.0.1 - - [24/May/2014 11:13:06] "POST /login HTTP/1.1" 303 - 0.0021
-127.0.0.1 - - [24/May/2014 11:13:06] "GET / HTTP/1.1" 200 189 0.0017
-127.0.0.1 - - [24/May/2014 11:19:54] "GET / HTTP/1.1" 200 189 0.0053
-127.0.0.1 - - [24/May/2014 11:19:56] "GET /logout HTTP/1.1" 302 - 0.0011
-127.0.0.1 - - [24/May/2014 11:19:56] "GET / HTTP/1.1" 200 201 0.0022
-127.0.0.1 - - [24/May/2014 11:19:57] "GET /login HTTP/1.1" 200 436 0.0031
-127.0.0.1 - - [24/May/2014 11:19:59] "POST /login HTTP/1.1" 303 - 0.0555
-127.0.0.1 - - [24/May/2014 11:19:59] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:20:01] "GET /logout HTTP/1.1" 302 - 0.0013
-127.0.0.1 - - [24/May/2014 11:20:01] "GET / HTTP/1.1" 200 201 0.0021
-127.0.0.1 - - [24/May/2014 11:20:02] "GET /signup HTTP/1.1" 200 476 0.0030
-127.0.0.1 - - [24/May/2014 11:20:07] "GET /login HTTP/1.1" 200 436 0.0050
-127.0.0.1 - - [24/May/2014 11:20:09] "POST /login HTTP/1.1" 303 - 0.0054
-127.0.0.1 - - [24/May/2014 11:20:09] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:21:22] "GET / HTTP/1.1" 200 189 0.0055
-127.0.0.1 - - [24/May/2014 11:21:23] "GET / HTTP/1.1" 200 189 0.0039
-127.0.0.1 - - [24/May/2014 11:21:25] "GET /logout HTTP/1.1" 302 - 0.0015
-127.0.0.1 - - [24/May/2014 11:21:25] "GET / HTTP/1.1" 200 201 0.0020
-127.0.0.1 - - [24/May/2014 11:21:26] "GET /login HTTP/1.1" 200 436 0.0034
-127.0.0.1 - - [24/May/2014 11:21:27] "POST /login HTTP/1.1" 303 - 0.0608
-127.0.0.1 - - [24/May/2014 11:21:27] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:21:28] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:21:28] "GET / HTTP/1.1" 200 201 0.0022
-127.0.0.1 - - [24/May/2014 11:21:30] "GET /login HTTP/1.1" 200 436 0.0045
-127.0.0.1 - - [24/May/2014 11:21:32] "GET /signup HTTP/1.1" 200 476 0.0036
-127.0.0.1 - - [24/May/2014 11:21:35] "GET /signup HTTP/1.1" 200 476 0.0018
-127.0.0.1 - - [24/May/2014 11:21:36] "GET / HTTP/1.1" 200 201 0.0016
-127.0.0.1 - - [24/May/2014 11:21:36] "GET /signup HTTP/1.1" 200 476 0.0027
-127.0.0.1 - - [24/May/2014 11:21:36] "GET /signup HTTP/1.1" 200 476 0.0016
-127.0.0.1 - - [24/May/2014 11:21:38] "GET /signup HTTP/1.1" 200 476 0.0020
-127.0.0.1 - - [24/May/2014 11:21:38] "GET /signup HTTP/1.1" 200 476 0.0016
-127.0.0.1 - - [24/May/2014 11:21:43] "GET /signup HTTP/1.1" 200 476 0.0033
-127.0.0.1 - - [24/May/2014 11:21:43] "GET /signup HTTP/1.1" 200 476 0.0017
-127.0.0.1 - - [24/May/2014 11:21:44] "GET / HTTP/1.1" 200 201 0.0016
-127.0.0.1 - - [24/May/2014 11:21:45] "GET /login HTTP/1.1" 200 436 0.0018
-127.0.0.1 - - [24/May/2014 11:23:50] "GET /login HTTP/1.1" 200 407 0.0057
-127.0.0.1 - - [24/May/2014 11:23:53] "GET /signup HTTP/1.1" 200 506 0.0478
-127.0.0.1 - - [24/May/2014 11:23:54] "GET /login HTTP/1.1" 200 407 0.0035
-127.0.0.1 - - [24/May/2014 11:23:56] "POST /login HTTP/1.1" 303 - 0.0144
-127.0.0.1 - - [24/May/2014 11:23:56] "GET / HTTP/1.1" 200 189 0.0016
-127.0.0.1 - - [24/May/2014 11:23:57] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:23:57] "GET / HTTP/1.1" 200 201 0.0019
-127.0.0.1 - - [24/May/2014 11:23:59] "GET /signup HTTP/1.1" 200 506 0.0033
-127.0.0.1 - - [24/May/2014 11:24:00] "GET /login HTTP/1.1" 200 407 0.0029
-127.0.0.1 - - [24/May/2014 11:25:44] "GET /signup HTTP/1.1" 200 506 0.0463
-127.0.0.1 - - [24/May/2014 11:25:46] "GET /login HTTP/1.1" 200 407 0.0045
-127.0.0.1 - - [24/May/2014 11:25:47] "POST /login HTTP/1.1" 303 - 0.0135
-127.0.0.1 - - [24/May/2014 11:25:47] "GET / HTTP/1.1" 200 189 0.0019
-127.0.0.1 - - [24/May/2014 11:25:49] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:25:49] "GET / HTTP/1.1" 200 201 0.0019
-127.0.0.1 - - [24/May/2014 11:25:52] "GET /login HTTP/1.1" 200 407 0.0029
-127.0.0.1 - - [24/May/2014 11:25:53] "GET /signup HTTP/1.1" 200 506 0.0044
-127.0.0.1 - - [24/May/2014 11:25:55] "GET /login HTTP/1.1" 200 407 0.0029
-127.0.0.1 - - [24/May/2014 11:25:56] "POST /login HTTP/1.1" 303 - 0.0060
-127.0.0.1 - - [24/May/2014 11:25:56] "GET / HTTP/1.1" 200 189 0.0108
-127.0.0.1 - - [24/May/2014 11:25:58] "GET /logout HTTP/1.1" 302 - 0.0012
-127.0.0.1 - - [24/May/2014 11:25:58] "GET / HTTP/1.1" 200 201 0.0023
-127.0.0.1 - - [24/May/2014 11:25:59] "GET /signup HTTP/1.1" 200 506 0.0036
-127.0.0.1 - - [24/May/2014 11:26:00] "POST /signup HTTP/1.1" 303 - 0.0347
-127.0.0.1 - - [24/May/2014 11:26:00] "GET /signup HTTP/1.1" 200 536 0.0134
-127.0.0.1 - - [24/May/2014 11:26:04] "GET /login HTTP/1.1" 200 407 0.0030
-127.0.0.1 - - [24/May/2014 11:44:48] "GET /login HTTP/1.1" 200 407 0.0054
-127.0.0.1 - - [24/May/2014 11:44:51] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0008
-127.0.0.1 - - [24/May/2014 12:41:42] "POST /login HTTP/1.1" 303 - 0.0509
-127.0.0.1 - - [24/May/2014 12:41:43] "GET / HTTP/1.1" 200 189 0.0020
-127.0.0.1 - - [24/May/2014 12:41:48] "GET /logout HTTP/1.1" 302 - 0.0015
-127.0.0.1 - - [24/May/2014 12:41:48] "GET / HTTP/1.1" 200 201 0.0087
-127.0.0.1 - - [24/May/2014 12:41:49] "GET /login HTTP/1.1" 200 407 0.0044
-127.0.0.1 - - [24/May/2014 12:41:50] "POST /login HTTP/1.1" 303 - 0.0073
-127.0.0.1 - - [24/May/2014 12:41:50] "GET / HTTP/1.1" 200 189 0.0025
-127.0.0.1 - - [24/May/2014 12:41:52] "GET /logout HTTP/1.1" 302 - 0.0011
-127.0.0.1 - - [24/May/2014 12:41:52] "GET / HTTP/1.1" 200 201 0.0021
-127.0.0.1 - - [24/May/2014 12:41:53] "GET /signup HTTP/1.1" 200 506 0.0036
-127.0.0.1 - - [24/May/2014 12:41:54] "GET /login HTTP/1.1" 200 407 0.0036
-127.0.0.1 - - [24/May/2014 12:41:56] "POST /login HTTP/1.1" 303 - 0.0074
-127.0.0.1 - - [24/May/2014 12:41:56] "GET / HTTP/1.1" 200 189 0.0017
-127.0.0.1 - - [24/May/2014 12:41:59] "GET /logout HTTP/1.1" 302 - 0.0016
-127.0.0.1 - - [24/May/2014 12:41:59] "GET / HTTP/1.1" 200 201 0.0024
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listeni127.0.0.1 - - [24/May/2014 16:32:51] Stopping ...
+Stopping ...
+ - 0.0122
+127.0.0.1 - - [24/May/2014 16:32:51] "GET / HTTP/1.1" 200 201 0.0020
+127.0.0.1 - - [24/May/2014 16:32:52] "GET /login HTTP/1.1" 200 407 0.0037
+Mysql2::Error - Access denied for user 'minix'@'localhost' (using password: YES):
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `connect'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:229:in `columns'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:249:in `column_names'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:262:in `column_methods_hash'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:74:in `all_attributes_exists?'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:27:in `method_missing'
+	/Volumes/Data/sinatra/model/user.rb:19:in `authenticate'
+	main.rb:60:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [24/May/2014 16:34:59] "GET /login HTTP/1.1" 200 407 0.0149
+127.0.0.1 - - [24/May/2014 16:35:00] "GET / HTTP/1.1" 200 201 0.0019
+127.0.0.1 - - [24/May/2014 16:35:01] "GET / HTTP/1.1" 200 201 0.0022
+127.0.0.1 - - [24/May/2014 16:35:02] "GET /login HTTP/1.1" 200 407 0.0035
+Mysql2::Error - Access denied for user 'minix'@'localhost' (using password: YES):
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `connect'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:229:in `columns'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:249:in `column_names'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:262:in `column_methods_hash'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:74:in `all_attributes_exists?'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:27:in `method_missing'
+	/Volumes/Data/sinatra/model/user.rb:19:in `authenticate'
+	main.rb:60:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)

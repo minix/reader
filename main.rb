@@ -20,9 +20,12 @@ configure do
 	set :public_folder, Proc.new { File.join(root, "static") }
 	set :views, Proc.new { File.join(root, "views") }
 	enable :logging
-	file = File.new("#{settings.root}/log/#{settings.environment}.log", 'a+')
-	file.sync = true
-	use Rack::CommonLogger, file
+	class ::Logger; alias_method :write, :<<; end
+	logfile = File.new("#{settings.root}/log/#{settings.environment}.log", 'a+')
+	$stdout.reopen(logfile)
+	$stderr.reopen(logfile)
+	$stderr.sync = true
+	$stdout.sync = true
 	database_config = YAML.load_file("config/database.yml")
 	ActiveRecord::Base.establish_connection(database_config)
 end
@@ -56,7 +59,7 @@ end
 post "/login" do
 	if session[:user] = Users.authenticate(params[:user][:name], params[:user][:passwd])
 		session[:user] = params[:user][:name]
-		redirect "/"
+		redirect "/", flash[:notice] => 'Login Success'
 	else 
 		flash[:error] = "User or Password was wrong!"
 		redirect "/login"
