@@ -167,3 +167,855 @@ Mysql2::Error - Access denied for user 'minix'@'localhost' (using password: YES)
 Stopping ...
 Stopping ...
 == Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [24/May/2014 16:52:01] "GET /login HTTP/1.1" 200 407 0.0154
+127.0.0.1 - - [24/May/2014 16:52:02] "GET / HTTP/1.1" 200 201 0.0018
+127.0.0.1 - - [24/May/2014 16:52:02] "GET / HTTP/1.1" 200 201 0.0021
+127.0.0.1 - - [24/May/2014 16:52:04] "GET /signup HTTP/1.1" 200 506 0.0441
+127.0.0.1 - - [24/May/2014 16:52:12] "POST /signup HTTP/1.1" 303 - 0.0394
+127.0.0.1 - - [24/May/2014 16:52:12] "GET / HTTP/1.1" 200 189 0.0019
+127.0.0.1 - - [24/May/2014 16:52:14] "GET /logout HTTP/1.1" 302 - 0.0024
+127.0.0.1 - - [24/May/2014 16:52:14] "GET / HTTP/1.1" 200 201 0.0127
+127.0.0.1 - - [24/May/2014 16:52:15] "GET /login HTTP/1.1" 200 407 0.0034
+127.0.0.1 - - [24/May/2014 16:52:17] "POST /login HTTP/1.1" 303 - 0.0162
+127.0.0.1 - - [24/May/2014 16:52:17] "GET / HTTP/1.1" 200 189 0.0019
+127.0.0.1 - - [24/May/2014 16:52:18] "GET /logout HTTP/1.1" 302 - 0.0015
+127.0.0.1 - - [24/May/2014 16:52:18] "GET / HTTP/1.1" 200 201 0.0019
+127.0.0.1 - - [24/May/2014 16:52:19] "GET /signup HTTP/1.1" 200 506 0.0032
+127.0.0.1 - - [24/May/2014 16:52:25] "POST /signup HTTP/1.1" 303 - 0.0187
+127.0.0.1 - - [24/May/2014 16:52:25] "GET /signup HTTP/1.1" 200 540 0.0021
+127.0.0.1 - - [24/May/2014 16:52:41] "POST /signup HTTP/1.1" 303 - 0.0080
+127.0.0.1 - - [24/May/2014 16:52:41] "GET / HTTP/1.1" 200 188 0.0094
+127.0.0.1 - - [24/May/2014 16:52:49] "GET /logout HTTP/1.1" 302 - 0.0015
+127.0.0.1 - - [24/May/2014 16:52:49] "GET / HTTP/1.1" 200 201 0.0028
+127.0.0.1 - - [24/May/2014 16:52:51] "GET /login HTTP/1.1" 200 407 0.0039
+127.0.0.1 - - [24/May/2014 16:52:52] "GET /signup HTTP/1.1" 200 506 0.0033
+127.0.0.1 - - [24/May/2014 16:52:54] "GET /login HTTP/1.1" 200 407 0.0037
+127.0.0.1 - - [24/May/2014 16:52:58] "GET /signup HTTP/1.1" 200 506 0.0042
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [25/May/2014 10:42:18] "GET / HTTP/1.1" 200 21 0.0163
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+Errno::ENOENT - No such file or directory - ./views/views/layouts/default.erb:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `open'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `read_template_file'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:68:in `block in initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `block in render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:665:in `erb'
+	main.rb:35:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [25/May/2014 10:43:07] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0054
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+Errno::ENOENT - No such file or directory - ./views/views/layouts/default.erb:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `open'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `read_template_file'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:68:in `block in initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `block in render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:665:in `erb'
+	main.rb:35:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+Errno::ENOENT - No such file or directory - ./views/views/layouts/default.erb:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `open'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `read_template_file'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:68:in `block in initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `block in render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:823:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:665:in `erb'
+	main.rb:35:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [25/May/2014 10:43:52] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0049
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [25/May/2014 10:44:51] "GET / HTTP/1.1" 200 200 0.0132
+Mysql2::Error - Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2):
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `connect'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:229:in `columns'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:244:in `column_defaults'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/base.rb:482:in `initialize'
+	main.rb:39:in `new'
+	main.rb:39:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [25/May/2014 10:45:25] "GET /signup HTTP/1.1" 200 505 0.0670
+127.0.0.1 - - [25/May/2014 10:45:34] "POST /signup HTTP/1.1" 303 - 0.0312
+127.0.0.1 - - [25/May/2014 10:45:34] "GET / HTTP/1.1" 200 188 0.0019
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [25/May/2014 10:46:05] "GET /logout HTTP/1.1" 302 - 0.0124
+127.0.0.1 - - [25/May/2014 10:46:05] "GET / HTTP/1.1" 200 200 0.0020
+127.0.0.1 - - [25/May/2014 10:46:06] "GET /login HTTP/1.1" 200 406 0.0043
+127.0.0.1 - - [25/May/2014 10:46:08] "POST /login HTTP/1.1" 303 - 0.0554
+127.0.0.1 - - [25/May/2014 10:46:08] "GET / HTTP/1.1" 200 188 0.0021
+127.0.0.1 - - [25/May/2014 10:46:09] "GET /logout HTTP/1.1" 302 - 0.0024
+127.0.0.1 - - [25/May/2014 10:46:09] "GET / HTTP/1.1" 200 200 0.0026
+127.0.0.1 - - [25/May/2014 10:46:11] "GET /signup HTTP/1.1" 200 505 0.0050
+127.0.0.1 - - [25/May/2014 10:46:19] "POST /signup HTTP/1.1" 303 - 0.0334
+127.0.0.1 - - [25/May/2014 10:46:19] "GET / HTTP/1.1" 200 187 0.0018
+127.0.0.1 - - [25/May/2014 10:46:21] "GET /logout HTTP/1.1" 302 - 0.0017
+127.0.0.1 - - [25/May/2014 10:46:21] "GET / HTTP/1.1" 200 200 0.0020
+127.0.0.1 - - [25/May/2014 10:46:23] "GET /login HTTP/1.1" 200 406 0.0036
+127.0.0.1 - - [25/May/2014 10:46:24] "POST /login HTTP/1.1" 303 - 0.0079
+127.0.0.1 - - [25/May/2014 10:46:24] "GET / HTTP/1.1" 200 188 0.0019
+127.0.0.1 - - [25/May/2014 10:46:26] "GET /logout HTTP/1.1" 302 - 0.0019
+127.0.0.1 - - [25/May/2014 10:46:26] "GET / HTTP/1.1" 200 200 0.0030
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+main.rb:37:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:35:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:15:in `<main>'
+main.rb:37:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:35:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:15:in `<main>'
+main.rb:38:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:36:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:16:in `<main>'
+main.rb:40:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:38:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:18:in `<main>'
+main.rb:40:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:38:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:18:in `<main>'
+main.rb:41:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:39:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:19:in `<main>'
+main.rb:38:in `block (2 levels) in <main>': uninitialized constant Mongo (NameError)
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid.rb:117:in `configure'
+	from main.rb:36:in `block in <main>'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1402:in `configure'
+	from /usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1982:in `block (2 levels) in delegate'
+	from main.rb:16:in `<main>'
+main.rb:43:in `<main>': uninitialized constant CarrierWave (NameError)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 21:38:56] "GET / HTTP/1.1" 200 200 0.0080
+127.0.0.1 - - [26/May/2014 21:38:56] "GET /favicon.ico HTTP/1.1" 404 448 0.0014
+127.0.0.1 - - [26/May/2014 21:38:59] "GET /login HTTP/1.1" 200 406 0.0029
+Mysql2::Error - Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2):
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `connect'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mysql2-0.3.16/lib/mysql2/client.rb:70:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:229:in `columns'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:249:in `column_names'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/model_schema.rb:262:in `column_methods_hash'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:74:in `all_attributes_exists?'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.14/lib/active_record/dynamic_matchers.rb:27:in `method_missing'
+	/Volumes/Data/sinatra/model/user.rb:19:in `authenticate'
+	main.rb:78:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [26/May/2014 21:39:01] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0014
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 21:40:10] "GET /login HTTP/1.1" 200 406 0.0074
+127.0.0.1 - - [26/May/2014 21:40:12] "POST /login HTTP/1.1" 303 - 0.0736
+127.0.0.1 - - [26/May/2014 21:40:12] "GET / HTTP/1.1" 200 188 0.0030
+127.0.0.1 - - [26/May/2014 21:40:14] "GET /logout HTTP/1.1" 302 - 0.0014
+127.0.0.1 - - [26/May/2014 21:40:14] "GET / HTTP/1.1" 200 200 0.0021
+127.0.0.1 - - [26/May/2014 21:40:18] "GET /login HTTP/1.1" 200 406 0.0032
+127.0.0.1 - - [26/May/2014 21:40:21] "GET /signup HTTP/1.1" 200 505 0.0059
+127.0.0.1 - - [26/May/2014 21:40:22] "GET /login HTTP/1.1" 200 406 0.0042
+127.0.0.1 - - [26/May/2014 21:40:23] "GET /signup HTTP/1.1" 200 505 0.0026
+127.0.0.1 - - [26/May/2014 21:40:24] "GET /login HTTP/1.1" 200 406 0.0025
+127.0.0.1 - - [26/May/2014 21:40:25] "GET /signup HTTP/1.1" 200 505 0.0029
+127.0.0.1 - - [26/May/2014 21:40:26] "GET /login HTTP/1.1" 200 406 0.0025
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:48:06] "GET /signup HTTP/1.1" 200 505 0.0490
+127.0.0.1 - - [26/May/2014 22:48:38] "GET /signup HTTP/1.1" 200 505 0.0021
+127.0.0.1 - - [26/May/2014 22:48:38] "GET /signup HTTP/1.1" 200 505 0.0056
+127.0.0.1 - - [26/May/2014 22:48:38] "GET / HTTP/1.1" 200 200 0.0024
+127.0.0.1 - - [26/May/2014 22:48:40] "GET /image HTTP/1.1" 200 361 0.0035
+127.0.0.1 - - [26/May/2014 22:48:47] "POST /image HTTP/1.1" 404 443 0.0036
+127.0.0.1 - - [26/May/2014 22:48:47] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0016
+127.0.0.1 - - [26/May/2014 22:49:28] "POST /image HTTP/1.1" 404 443 0.0044
+127.0.0.1 - - [26/May/2014 22:49:28] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0011
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+NoMethodError - undefined method `[]' for nil:NilClass:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/attributes.rb:184:in `block in write_attribute'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/threaded/lifecycle.rb:26:in `_assigning'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/attributes.rb:180:in `write_attribute'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/fields.rb:437:in `block (2 levels) in create_field_setter'
+	main.rb:87:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [26/May/2014 22:49:38] "GET /__sinatra__/500.png HTTP/1.1" 200 24378 0.0062
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:52:49] "POST /image HTTP/1.1" 404 443 0.0083
+127.0.0.1 - - [26/May/2014 22:52:49] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0016
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:53:31] "GET /image HTTP/1.1" 200 307 0.0061
+127.0.0.1 - - [26/May/2014 22:53:31] "GET / HTTP/1.1" 200 200 0.0019
+127.0.0.1 - - [26/May/2014 22:53:34] "GET /upload HTTP/1.1" 404 443 0.0022
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:54:26] "GET /upload HTTP/1.1" 404 443 0.0050
+127.0.0.1 - - [26/May/2014 22:54:26] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [26/May/2014 22:54:29] "GET /upload HTTP/1.1" 404 443 0.0012
+127.0.0.1 - - [26/May/2014 22:54:29] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0008
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+Errno::ENOENT - No such file or directory - ./views/upload_image.erb:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `open'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `read_template_file'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:68:in `block in initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:665:in `erb'
+	main.rb:55:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+127.0.0.1 - - [26/May/2014 22:54:49] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0052
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:56:31] "GET /upload HTTP/1.1" 200 326 0.0059
+127.0.0.1 - - [26/May/2014 22:56:38] "GET /upload_image?image%5Bname%5D=haha&image%5Buploaded_photo%5D=926191_1424432471156000_1952520938_n.jpg HTTP/1.1" 404 449 0.0027
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 22:58:11] "GET /upload_image?image%5Bname%5D=haha&image%5Buploaded_photo%5D=926191_1424432471156000_1952520938_n.jpg HTTP/1.1" 404 449 0.0055
+127.0.0.1 - - [26/May/2014 22:58:11] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/May/2014 22:58:20] "GET / HTTP/1.1" 200 200 0.0020
+127.0.0.1 - - [26/May/2014 22:58:20] "GET /upload HTTP/1.1" 200 328 0.0020
+ArgumentError - wrong number of arguments (1 for 0):
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mini_magick-3.7.0/lib/mini_magick/image.rb:170:in `valid?'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activemodel-3.2.14/lib/active_model/validations.rb:203:in `invalid?'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/persistence/modification.rb:22:in `prepare'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/persistence/operations/update.rb:45:in `persist'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/persistence.rb:150:in `update'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mongoid-3.1.6/lib/mongoid/persistence.rb:87:in `save'
+	main.rb:87:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 23:04:39] "POST /upload_image HTTP/1.1" 404 450 0.0078
+127.0.0.1 - - [26/May/2014 23:04:39] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0013
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 127.0.0.1:4567, CTRL+C to stop
+127.0.0.1 - - [26/May/2014 23:05:34] "GET /upload_image HTTP/1.1" 404 449 0.0053
+127.0.0.1 - - [26/May/2014 23:05:35] "GET /upload HTTP/1.1" 200 322 0.0021
+127.0.0.1 - - [26/May/2014 23:05:36] "GET /upload HTTP/1.1" 200 322 0.0021
+Errno::ENOENT - No such file or directory - /var/folders/m2/v50t37911_bd__m6d3xgmlr00000gn/T/mini_magick20140526-577-1x9ne10{:image=>{:filename=>"926191_1424432471156000_1952520938_n.jpg", :type=>"image/jpeg", :name=>"image[uploaded_photo]", :tempfile=>#<file:/var/folders/m2/v50t37911_bd__m6d3xgmlr00000gn/t/rackmultipart20140526-577-eyc5i>, :head=>"content-disposition: form-data; name=\"image[uploaded_photo]\"; filename=\"926191_1424432471156000_1952520938_n.jpg\"\r\ncontent-type: image/jpeg\r\n"}}.lock:
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:346:in `rmdir'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:346:in `rmdir'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:338:in `ensure in locking'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:338:in `locking'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:144:in `block in initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tmpdir.rb:133:in `create'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/1.9.1/tempfile.rb:134:in `initialize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mini_magick-3.7.0/lib/mini_magick/image.rb:133:in `new'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mini_magick-3.7.0/lib/mini_magick/image.rb:133:in `create'
+	main.rb:86:in `block in <main>'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:210:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/usr/local/Cellar/ruby/1.9.3-p392/lib/ruby/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+Stopping ...
+Stopping ...
+== Sinatra has ended his set (crowd applauds)

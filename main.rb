@@ -4,12 +4,14 @@ require 'digest/sha1'
 require 'sinatra/flash'
 require 'logger'
 require 'yaml'
+require_relative 'model/mongodb'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__) + "/model")
 require 'user'
 
+
 configure do
-	enable :sessions
+	enable :sessions, :logging
 	set :session_secret, '3229450eae59f7eb02a3d60e995e19453d4bb5a3'
 	set :environment, :development
 	set :root, File.dirname(__FILE__)
@@ -19,7 +21,7 @@ configure do
 	set :app_file, __FILE__
 	set :public_folder, Proc.new { File.join(root, "static") }
 	set :views, Proc.new { File.join(root, "views") }
-	enable :logging
+	set :erb, :layout_engine => :erb, :layout => :'layouts/default', :pretty => #{settings.environment}
 	class ::Logger; alias_method :write, :<<; end
 	logfile = File.new("#{settings.root}/log/#{settings.environment}.log", 'a+')
 	$stdout.reopen(logfile)
@@ -29,7 +31,6 @@ configure do
 	database_config = YAML.load_file("config/database.yml")
 	ActiveRecord::Base.establish_connection(database_config)
 end
-
 
 get "/" do
 	erb :index
@@ -42,6 +43,21 @@ end
 
 get "/login" do
 	erb :login
+end
+
+get "/logout" do
+	session[:user] = nil
+	redirect "/"
+end
+
+get "/upload" do
+	#@images = Image.all
+	erb :upload
+end
+
+get '/image/:id' do
+	@image = Image.find(params[:id])
+	erb :show
 end
 
 post "/signup" do
@@ -66,21 +82,14 @@ post "/login" do
 	end
 end
 
-get "/logout" do
-	session[:user] = nil
-	redirect "/"
+post "/upload" do
+	@image = Image.create(:image => params[:image][:uploaded_photo])
+	@image.file_name = params[:image][:name]
+	@image.save
+	redirect '/'
 end
 
-__END__
 
-@@layout
-<!DOCTYPE html>
-<html>
-<head>
-<title>Photo</title>
-</head>
-<body>
-<%= yield %>
-</body>
-</html>
+
+__END__
 

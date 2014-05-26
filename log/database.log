@@ -9,3 +9,28 @@ D, [2014-05-24T12:32:26.043638 #1249] DEBUG -- :   [1m[36m (1.2ms)[0m  [1mSE
 I, [2014-05-24T12:32:26.043715 #1249]  INFO -- : Migrating to CreateUsers (1)
 D, [2014-05-24T12:32:26.069994 #1249] DEBUG -- :   [1m[35m (24.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
 D, [2014-05-24T12:32:26.071279 #1249] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m
+D, [2014-05-24T16:47:48.344825 #1760] DEBUG -- :   [1m[36m (2.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T16:47:48.344947 #1760]  INFO -- : Migrating to CreateUsers (1)
+D, [2014-05-24T16:47:48.351435 #1760] DEBUG -- :   [1m[35m (0.4ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T16:47:48.351482 #1760] DEBUG -- : Mysql2::Error: Table 'users' already exists: CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T16:48:35.620103 #1762] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T16:48:35.620204 #1762]  INFO -- : Migrating to CreateContent (2)
+D, [2014-05-24T16:49:32.309991 #1770] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T16:49:32.310088 #1770]  INFO -- : Migrating to CreateContent (2)
+D, [2014-05-24T16:51:29.857868 #1783] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T16:51:29.857973 #1783]  INFO -- : Migrating to CreateUsers (1)
+D, [2014-05-24T16:51:29.880881 #1783] DEBUG -- :   [1m[35m (17.7ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T16:51:29.882185 #1783] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m
+I, [2014-05-24T16:51:29.882322 #1783]  INFO -- : Migrating to CreateContents (2)
+D, [2014-05-24T16:51:29.905314 #1783] DEBUG -- :   [1m[35m (20.9ms)[0m  CREATE TABLE `content` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `site_name` varchar(255), `content` text, `collect_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T16:51:29.906114 #1783] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('2')[0m
+D, [2014-05-24T20:45:11.869179 #2561] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mCREATE DATABASE `site` DEFAULT CHARACTER SET `utf8`[0m
+D, [2014-05-24T20:45:16.616263 #2562] DEBUG -- :   [1m[36m (14.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+D, [2014-05-24T20:45:16.641613 #2562] DEBUG -- :   [1m[35m (24.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+D, [2014-05-24T20:45:16.647742 #2562] DEBUG -- :   [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2014-05-24T20:45:16.647835 #2562]  INFO -- : Migrating to CreateUsers (1)
+D, [2014-05-24T20:45:16.662692 #2562] DEBUG -- :   [1m[35m (13.0ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hash_passwd` varchar(255), `passwd` varchar(255), `salt` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T20:45:16.663464 #2562] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m
+I, [2014-05-24T20:45:16.663544 #2562]  INFO -- : Migrating to CreateContents (2)
+D, [2014-05-24T20:45:16.687980 #2562] DEBUG -- :   [1m[35m (23.1ms)[0m  CREATE TABLE `content` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `site_name` varchar(255), `issue_time` varchar(255), `content` text, `collect_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+D, [2014-05-24T20:45:16.689142 #2562] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('2')[0m

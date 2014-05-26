@@ -1,0 +1,7 @@
+development:
+  sessions:
+    default:
+      database: image
+      hosts:
+        - localhost
+
