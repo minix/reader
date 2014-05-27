@@ -3,5 +3,16 @@ development:
     default:
       database: image
       hosts:
-        - localhost
+        - localhost:27017
 
+test:
+  sessions:
+    default:
+      database: image
+      hosts:
+        - localhost:27017
+
+production:
+  sessions:
+    default:
+      uri: <%= ENV["ECHO_URI"] %>
