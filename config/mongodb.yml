@@ -1,18 +1,28 @@
+#development:
+#  sessions:
+#    default:
+#      database: image
+#      hosts:
+#        - localhost:27017
+#
+#test:
+#  sessions:
+#    default:
+#      database: image
+#      hosts:
+#        - localhost:27017
+#
+#production:
+#  sessions:
+#    default:
+#      uri: <%= ENV["ECHO_URI"] %>
+
 development:
-  sessions:
-    default:
-      database: image
-      hosts:
-        - localhost:27017
-
-test:
-  sessions:
-    default:
-      database: image
-      hosts:
-        - localhost:27017
-
+  host: 127.0.0.1
+  port: 27017
+  database: gridfs_upload
 production:
-  sessions:
-    default:
-      uri: <%= ENV["ECHO_URI"] %>
+  host: 127.0.0.1
+  port: 27017
+  database: gridfs_upload
+environment: development
