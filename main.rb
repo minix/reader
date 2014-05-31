@@ -16,6 +16,7 @@ require 'mongodb'
 before do
 	@db = Mongo::Connection.new.db("image")
 	@grid_fs = Mongo::Grid.new(@db)
+	@@files_collection = @db.collection("fs.files")
 end
 
 configure do
@@ -63,7 +64,7 @@ get "/upload" do
 end
 
 get "/view" do
-	@image = Image.find
+	@image = @@files_collection.find
 	erb :view
 end
 
